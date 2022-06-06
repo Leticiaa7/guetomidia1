@@ -1,0 +1,1122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:ital,wght@0,300;1,300&family=Roboto:wght@400;500&display=swap');
+@font-face {
+    font-family: 'Garet';
+    src: url('Garet-Book.ttf') format('truetype'),  url('Garet-Heavy.ttf') format('truetype');
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e5e5e5;
+}
+
+.inicio-cursos-projetos{
+    position: relative;
+    color:#000;
+    top:170px;
+    margin-left: 150px;
+    width: 500px;
+}
+.inicio-cursos-projetos h1{
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 0px;
+    padding-right: 250px;
+    padding-bottom: 50px;
+    width: 800px;
+    background-color: #14213d;
+    color:#fff;
+    font-size: 35px;
+    border-radius:10px;
+    
+}
+.inicio-cursos-projetos p{
+    padding-top: 40px;
+    font-size: 14px;
+    font-family: 'Garet', sans-serif;
+    font-weight:600 ;
+    padding-bottom: 50px;
+    background-color: #fff;
+    text-align: center;
+    width:560px;
+    padding-right:20px;
+    padding-left:20px;
+    border-radius:10px;
+}
+.inicio-cursos-projetos p strong{
+    color:#14213d;
+    font-size:15px;
+    background-color: #fca311;
+    padding:20px;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    
+}
+.inicio-cursos-projetos img{
+    position: relative;
+    margin-left: 560px;
+    margin-top: -470px;
+}
+.fundo-cursos-projetos{
+    background-color: #14213d;
+    position: relative;
+    margin-top: 220px;
+    height:1280px;
+}
+.fundo-cursos-projetos h2{
+    padding-top:50px;
+    color:#fff;
+    margin-left: 150px;
+}
+.cursos-pensar{
+    position: relative;
+    top:50px;
+    background-color: #fff;
+    width:300px;
+    height:350px;
+    margin-left: 50px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+}
+.cursos-pensar h3{
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    padding-top:20px;
+    padding-bottom: 10px;
+}
+.cursos-pensar ul{
+    padding-left:20px;
+    font-family: 'Inter';
+    font-size:14px;
+}
+.cursos-pensar button{
+    background-color: #000;
+    border-radius: 10px;
+    text-align: center;
+    padding:10px;
+    color:#fff;
+    margin-left: 150px;
+    margin-top: 5px;
+    width:100px;
+    cursor: pointer;
+}
+.cursos-pensar button:hover{
+    background-color: #14213d;
+}
+.cursos-pensar button a{
+
+    color:#fff;
+    text-decoration: none;
+}
+.cursos-google{
+    position: relative;
+    bottom:300px;
+    background-color: #fff;
+    width:300px;
+    height:350px;
+    margin-left: 365px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+.cursos-google h3{
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 10px;
+}
+.cursos-google ul{
+    padding-left:20px;
+    font-family: 'Inter';
+    font-size:14px;
+}
+.cursos-google button{
+    background-color: #000;
+    border-radius: 10px;
+    text-align: center;
+    padding:10px;
+    color:#fff;
+    margin-left: 150px;
+    margin-top: 5px;
+    width:100px;
+    cursor: pointer;
+}
+.cursos-google button:hover{
+    background-color: #14213d;
+}
+.cursos-google button a{
+
+    color:#fff;
+    text-decoration: none;
+}
+.cursos-duolingo{
+    position: relative;
+    bottom:650px;
+    background-color: #fff;
+    width:300px;
+    height:350px;
+    margin-left: 680px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+}
+.cursos-duolingo h3{
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    padding-top:20px;
+    padding-bottom: 10px;
+}
+.cursos-duolingo ul{
+    padding-left:20px;
+    font-family: 'Inter';
+    font-size:14px;
+}
+.cursos-duolingo button{
+    background-color: #000;
+    border-radius: 10px;
+    text-align: center;
+    padding:10px;
+    color:#fff;
+    margin-left: 150px;
+    margin-top: 10px;
+    width:100px;
+    cursor: pointer;
+}
+.cursos-duolingo button:hover{
+    background-color: #14213d;
+}
+.cursos-duolingo button a{
+
+    color:#fff;
+    text-decoration: none;
+}
+.cursos-joseColtro{
+    position: relative;
+    bottom:1000px;
+    background-color: #fff;
+    width:300px;
+    height:350px;
+    margin-left: 995px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+}
+.cursos-joseColtro h3{
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    padding-top:20px;
+    padding-bottom: 10px;
+}
+.cursos-joseColtro ul{
+    padding-left:20px;
+    font-family: 'Inter';
+    font-size:14px;
+}
+.cursos-joseColtro button{
+    background-color: #000;
+    border-radius: 10px;
+    text-align: center;
+    padding:10px;
+    color:#fff;
+    margin-left: 150px;
+    margin-top: 30px;
+    width:100px;
+    cursor: pointer;
+}
+.cursos-joseColtro button:hover{
+    background-color: #14213d;
+}
+.cursos-joseColtro button a{
+
+    color:#fff;
+    text-decoration: none;
+}
+.cursos-bradesco{
+    position: relative;
+    bottom:980px;
+    background-color: #fff;
+    width:300px;
+    height:350px;
+    margin-left: 50px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+}
+.cursos-bradesco h3{
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    padding-top:20px;
+    padding-bottom: 10px;
+}
+.cursos-bradesco ul{
+    padding-left:20px;
+    font-family: 'Inter';
+    font-size:14px;
+    padding-bottom: 15px;
+}
+.cursos-bradesco button{
+    background-color: #000;
+    border-radius: 10px;
+    text-align: center;
+    padding:10px;
+    color:#fff;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    width:100px;
+    cursor: pointer;
+}
+.cursos-bradesco button:hover{
+    background-color: #14213d;
+}
+.cursos-bradesco button a{
+
+    color:#fff;
+    text-decoration: none;
+}
+.cursos-sebrae{
+    position: relative;
+    bottom:1330px;
+    background-color: #fff;
+    width:300px;
+    height:350px;
+    margin-left: 365px;
+    padding-left: 20px;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+}
+.cursos-sebrae h3{
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 10px;
+    padding-top:20px;
+}
+.cursos-sebrae ul{
+    padding-left:20px;
+    font-family: 'Inter';
+    font-size:14px;
+    padding-bottom: 15px;
+}
+.cursos-sebrae button{
+    background-color: #000;
+    border-radius: 10px;
+    text-align: center;
+    padding:10px;
+    color:#fff;
+    margin-left: 150px;
+    margin-top: 15px;
+    width:100px;
+    cursor: pointer;
+}
+.cursos-sebrae button:hover{
+    background-color: #14213d;
+}
+.cursos-sebrae button a{
+
+    color:#fff;
+    text-decoration: none;
+}
+.cursos-coursera{
+    position: relative;
+    bottom:1680px;
+    background-color: #fff;
+    width:300px;
+    height:350px;
+    margin-left: 680px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+}
+.cursos-coursera h3{
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    padding-top:20px;
+    padding-bottom: 10px;
+}
+.cursos-coursera ul{
+    padding-left:20px;
+    font-family: 'Inter';
+    font-size:14px;
+    padding-bottom: 0px;
+}
+.cursos-coursera button{
+    background-color: #000;
+    border-radius: 10px;
+    text-align: center;
+    padding:10px;
+    color:#fff;
+    margin-left: 150px;
+    margin-top: 30px;
+    width:100px;
+    cursor: pointer;
+}
+.cursos-coursera button:hover{
+    background-color: #14213d;
+}
+.cursos-coursera button a{
+
+    color:#fff;
+    text-decoration: none;
+}
+.cursos-galena{
+    position: relative;
+    bottom:2030px;
+    background-color: #fff;
+    width:300px;
+    height:350px;
+    margin-left: 995px;
+    padding: 50px 20px 20px 20px;
+    border-radius: 10px;
+}
+.cursos-galena h3{
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    padding-top:40px;
+    padding-bottom: 10px;
+}
+.cursos-galena ul{
+    padding-left:20px;
+    font-family: 'Inter';
+    font-size:14px;
+}
+.cursos-galena button{
+    background-color: #000;
+    border-radius: 10px;
+    text-align: center;
+    padding:10px;
+    color:#fff;
+    margin-left: 150px;
+    margin-top: 50px;
+    width:100px;
+    cursor: pointer;
+}
+.cursos-galena button:hover{
+    background-color: #14213d;
+}
+.cursos-galena button a{
+
+    color:#fff;
+    text-decoration: none;
+}
+.cursos-primecursos{
+    position: relative;
+    bottom:2010px;
+    background-color: #fff;
+    width:300px;
+    height:350px;
+    margin-left: 50px;
+    padding-right:20px;
+    padding-left:20px;
+    border-radius: 10px;
+}
+.cursos-primecursos h3{
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    padding-top:20px;
+    padding-bottom: 10px;
+}
+.cursos-primecursos ul{
+    padding-left:20px;
+    font-family: 'Inter';
+    font-size:14px;
+}
+.cursos-primecursos button{
+    background-color: #000;
+    border-radius: 10px;
+    text-align: center;
+    padding:10px;
+    color:#fff;
+    margin-left: 150px;
+    margin-top: 0px;
+    width:100px;
+    cursor: pointer;
+}
+.cursos-primecursos button:hover{
+    background-color: #14213d;
+}
+.cursos-primecursos button a{
+
+    color:#fff;
+    text-decoration: none;
+}
+.cursos-enemgratuito{
+    position: relative;
+    bottom: 2360px;
+    background-color: #fff;
+    width:300px;
+    height:350px;
+    margin-left: 365px;
+    padding-left: 20px;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+}
+.cursos-enemgratuito h3{
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 10px;
+    padding-top:20px;
+}
+.cursos-enemgratuito ul{
+    padding-left:20px;
+    font-family: 'Inter';
+    font-size:14px;
+}
+.cursos-enemgratuito button{
+    background-color: #000;
+    border-radius: 10px;
+    text-align: center;
+    padding:10px;
+    color:#fff;
+    margin-left: 150px;
+    margin-top: 25px;
+    width:100px;
+    cursor: pointer;
+}
+.cursos-enemgratuito button:hover{
+    background-color: #14213d;
+}
+.cursos-enemgratuito button a{
+
+    color:#fff;
+    text-decoration: none;
+}
+.cursos-kultivi{
+    position: relative;
+    bottom:2710px;
+    background-color: #fff;
+    width:300px;
+    height:350px;
+    margin-left: 680px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+}
+.cursos-kultivi h3{
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    padding-top:20px;
+    padding-bottom: 10px;
+}
+.cursos-kultivi ul{
+    padding-left:20px;
+    font-family: 'Inter';
+    font-size:14px;
+}
+.cursos-kultivi button{
+    background-color: #000;
+    border-radius: 10px;
+    text-align: center;
+    padding:10px;
+    color:#fff;
+    margin-left: 150px;
+    margin-top: 15px;
+    width:100px;
+    cursor: pointer;
+}
+.cursos-kultivi button:hover{
+    background-color: #14213d;
+}
+.cursos-kultivi button a{
+
+    color:#fff;
+    text-decoration: none;
+}
+.cursos-programaria{
+    position: relative;
+    bottom:3060px;
+    background-color: #fff;
+    width:300px;
+    height:350px;
+    margin-left: 995px;
+    padding: 50px 20px 20px 20px;
+    border-radius: 10px;
+}
+.cursos-programaria h3{
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    padding-top:40px;
+    padding-bottom: 10px;
+}
+.cursos-programaria ul{
+    padding-left:20px;
+    font-family: 'Inter';
+    font-size:14px;
+
+}
+.cursos-programaria button{
+    background-color: #000;
+    border-radius: 10px;
+    text-align: center;
+    padding:10px;
+    color:#fff;
+    margin-left: 150px;
+    margin-top: 30px;
+    width:100px;
+    cursor: pointer;
+
+}
+.cursos-programaria button:hover{
+    background-color: #14213d;
+}
+.cursos-programaria button a{
+
+    color:#fff;
+    text-decoration: none;
+}
+
+
+
+/********************VAGAS*******************/
+
+.inicio-vagas-projetos{
+    position: relative;
+    color:#000;
+    top:170px;
+    margin-left: 150px;
+    width: 500px;
+}
+.inicio-vagas-projetos h1{
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 0px;
+    padding-right: 625px;
+    padding-bottom: 50px;
+    width: 1160px;
+    background-color: #14213d;
+    color:#fff;
+    font-size: 35px;
+    position: relative;
+    border-radius: 10px;
+    
+}
+.inicio-vagas-projetos p{
+    padding-top: 40px;
+    font-size: 14px;
+    font-family: 'Garet', sans-serif;
+    font-weight:600 ;
+    padding-bottom: 50px;
+    background-color: #fff;
+    text-align: center;
+    width:560px;
+    height:120px;
+    padding-right:20px;
+    padding-left:20px;
+    border-radius: 10px;
+}
+.inicio-vagas-projetos p strong{
+    color:#14213d;
+    font-size:15px;
+    background-color: #fca311;
+    padding:20px;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    height:100px;
+    
+}
+.inicio-vagas-projetos img{
+    position: relative;
+    margin-left: 560px;
+    margin-top: -1800px;
+}
+.fundo-vagas-projetos{
+    background-color: #14213d;
+    position: relative;
+    margin-top: 220px;
+    height:1280px;
+}
+.fundo-vagas-projetos h2{
+    padding-top:50px;
+    color:#fff;
+    margin-left: 150px;
+}
+.vagas-amazon{
+    position: relative;
+    top:50px;
+    background-color: #fff;
+    width:300px;
+    height:350px;
+    margin-left: 50px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+}
+.vagas-amazon h3{
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    padding-top:20px;
+    padding-bottom: 10px;
+}
+.vagas-amazon ul{
+    padding-left:20px;
+    font-family: 'Inter';
+    font-size:14px;
+    padding-bottom:8px;
+}
+.vagas-amazon button{
+    background-color: #000;
+    border-radius: 10px;
+    text-align: center;
+    padding:10px;
+    color:#fff;
+    margin-left: 150px;
+    margin-top: 5px;
+    width:100px;
+    cursor: pointer;
+}
+.vagas-amazon button:hover{
+    background-color: #14213d;
+}
+.vagas-amazon button a{
+
+    color:#fff;
+    text-decoration: none;
+}
+.vagas-linkedin{
+    position: relative;
+    bottom:300px;
+    background-color: #fff;
+    width:300px;
+    height:350px;
+    margin-left: 365px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+.vagas-linkedin h3{
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 10px;
+}
+.vagas-linkedin ul{
+    padding-left:20px;
+    font-family: 'Inter';
+    font-size:14px;
+}
+.vagas-linkedin button{
+    background-color: #000;
+    border-radius: 10px;
+    text-align: center;
+    padding:10px;
+    color:#fff;
+    margin-left: 150px;
+    margin-top: 5px;
+    width:100px;
+    cursor: pointer;
+}
+.vagas-linkedin button:hover{
+    background-color: #14213d;
+}
+.vagas-linkedin button a{
+
+    color:#fff;
+    text-decoration: none;
+}
+.vagas-c6{
+    position: relative;
+    bottom:650px;
+    background-color: #fff;
+    width:300px;
+    height:350px;
+    margin-left: 680px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+}
+.vagas-c6 h3{
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    padding-top:20px;
+    padding-bottom: 10px;
+}
+.vagas-c6 ul{
+    padding-left:20px;
+    font-family: 'Inter';
+    font-size:14px;
+    padding-bottom: 40px;
+}
+.vagas-c6 button{
+    background-color: #000;
+    border-radius: 10px;
+    text-align: center;
+    padding:10px;
+    color:#fff;
+    margin-left: 150px;
+    margin-top: 5px;
+    width:100px;
+    cursor: pointer;
+}
+.vagas-c6 button:hover{
+    background-color: #14213d;
+}
+.vagas-c6 button a{
+
+    color:#fff;
+    text-decoration: none;
+}
+.vagas-nubank{
+    position: relative;
+    bottom:1000px;
+    background-color: #fff;
+    width:300px;
+    height:350px;
+    margin-left: 995px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+}
+.vagas-nubank h3{
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    padding-top:20px;
+    padding-bottom: 10px;
+}
+.vagas-nubank ul{
+    padding-left:20px;
+    font-family: 'Inter';
+    font-size:14px;
+    padding-bottom:35px ;
+}
+.vagas-nubank button{
+    background-color: #000;
+    border-radius: 10px;
+    text-align: center;
+    padding:10px;
+    color:#fff;
+    margin-left: 150px;
+    margin-top: 5px;
+    width:100px;
+    cursor: pointer;
+}
+.vagas-nubank button:hover{
+    background-color: #14213d;
+}
+.vagas-nubank button a{
+
+    color:#fff;
+    text-decoration: none;
+}
+.vagas-indeed{
+    position: relative;
+    bottom:980px;
+    background-color: #fff;
+    width:300px;
+    height:350px;
+    margin-left: 50px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+}
+.vagas-indeed h3{
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    padding-top:20px;
+    padding-bottom: 10px;
+}
+.vagas-indeed ul{
+    padding-left:20px;
+    font-family: 'Inter';
+    font-size:14px;
+    padding-bottom: 7px;
+}
+.vagas-indeed button{
+    background-color: #000;
+    border-radius: 10px;
+    text-align: center;
+    padding:10px;
+    color:#fff;
+    margin-left: 150px;
+    margin-top: 5px;
+    width:100px;
+    cursor: pointer;
+}
+.vagas-indeed button:hover{
+    background-color: #14213d;
+}
+.vagas-indeed button a{
+
+    color:#fff;
+    text-decoration: none;
+}
+.vagas-monster{
+    position: relative;
+    bottom:1330px;
+    background-color: #fff;
+    width:300px;
+    height:350px;
+    margin-left: 365px;
+    padding-left: 20px;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+}
+.vagas-monster h3{
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 10px;
+    padding-top:20px;
+}
+.vagas-monster ul{
+    padding-left:20px;
+    font-family: 'Inter';
+    font-size:14px;
+    padding-bottom:25px;
+}
+.vagas-monster button{
+    background-color: #000;
+    border-radius: 10px;
+    text-align: center;
+    padding:10px;
+    color:#fff;
+    margin-left: 150px;
+    margin-top: 5px;
+    width:100px;
+    cursor: pointer;
+}
+.vagas-monster button:hover{
+    background-color: #14213d;
+}
+.vagas-monster button a{
+
+    color:#fff;
+    text-decoration: none;
+}
+.vagas-carrefour{
+    position: relative;
+    bottom:1680px;
+    background-color: #fff;
+    width:300px;
+    height:350px;
+    margin-left: 680px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+}
+.vagas-carrefour h3{
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    padding-top:20px;
+    padding-bottom: 10px;
+}
+.vagas-carrefour ul{
+    padding-left:20px;
+    font-family: 'Inter';
+    font-size:14px;
+    padding-bottom: 25px;
+}
+.vagas-carrefour button{
+    background-color: #000;
+    border-radius: 10px;
+    text-align: center;
+    padding:10px;
+    color:#fff;
+    margin-left: 150px;
+    margin-top: 5px;
+    width:100px;
+    cursor: pointer;
+}
+.vagas-carrefour button:hover{
+    background-color: #14213d;
+}
+.vagas-carrefour button a{
+
+    color:#fff;
+    text-decoration: none;
+}
+.vagas-bradesco{
+    position: relative;
+    bottom:2030px;
+    background-color: #fff;
+    width:300px;
+    height:350px;
+    margin-left: 995px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+}
+.vagas-bradesco h3{
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    padding-top:20px;
+    padding-bottom: 10px;
+}
+.vagas-bradesco ul{
+    padding-left:20px;
+    font-family: 'Inter';
+    font-size:14px;
+    padding-bottom: 10px;
+}
+.vagas-bradesco button{
+    background-color: #000;
+    border-radius: 10px;
+    text-align: center;
+    padding:10px;
+    color:#fff;
+    margin-left: 150px;
+    margin-top: 5px;
+    width:100px;
+    cursor: pointer;
+}
+.vagas-bradesco button:hover{
+    background-color: #14213d;
+}
+.vagas-bradesco button a{
+
+    color:#fff;
+    text-decoration: none;
+}
+.vagas-catho{
+    position: relative;
+    bottom:2010px;
+    background-color: #fff;
+    width:300px;
+    height:350px;
+    margin-left: 50px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+}
+.vagas-catho h3{
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    padding-top:20px;
+    padding-bottom: 10px;
+}
+.vagas-catho ul{
+    padding-left:20px;
+    font-family: 'Inter';
+    font-size:14px;
+    padding-bottom:35px;
+}
+.vagas-catho button{
+    background-color: #000;
+    border-radius: 10px;
+    text-align: center;
+    padding:10px;
+    color:#fff;
+    margin-left: 150px;
+    margin-top: 5px;
+    width:100px;
+    cursor: pointer;
+}
+.vagas-catho button:hover{
+    background-color: #14213d;
+}
+.vagas-catho button a{
+
+    color:#fff;
+    text-decoration: none;
+}
+.vagas-infojobs{
+    position: relative;
+    bottom: 2360px;
+    background-color: #fff;
+    width:300px;
+    height:350px;
+    margin-left: 365px;
+    padding-left: 20px;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+}
+.vagas-infojobs h3{
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 10px;
+    padding-top:20px;
+}
+.vagas-infojobs ul{
+    padding-left:20px;
+    font-family: 'Inter';
+    font-size:14px;
+}
+.vagas-infojobs button{
+    background-color: #000;
+    border-radius: 10px;
+    text-align: center;
+    padding:10px;
+    color:#fff;
+    margin-left: 150px;
+    margin-top: 5px;
+    width:100px;
+    cursor: pointer;
+}
+.vagas-infojobs button:hover{
+    background-color: #14213d;
+}
+.vagas-infojobs button a{
+
+    color:#fff;
+    text-decoration: none;
+}
+.vagas-ciee{
+    position: relative;
+    bottom:2710px;
+    background-color: #fff;
+    width:300px;
+    height:350px;
+    margin-left: 680px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+}
+.vagas-ciee h3{
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.vagas-ciee ul{
+    padding-left:20px;
+    font-family: 'Inter';
+    font-size:14px;
+}
+.vagas-ciee button{
+    background-color: #000;
+    border-radius: 10px;
+    text-align: center;
+    padding:10px;
+    color:#fff;
+    margin-left: 150px;
+    margin-top: 5px;
+    width:100px;
+    cursor: pointer;
+}
+.vagas-ciee button:hover{
+    background-color: #14213d;
+}
+.vagas-ciee button a{
+
+    color:#fff;
+    text-decoration: none;
+}
+.vagas-netempregos{
+    position: relative;
+    bottom:3060px;
+    background-color: #fff;
+    width:300px;
+    height:350px;
+    margin-left: 995px;
+    padding: 20px 20px 0px 20px;
+    border-radius: 10px;
+}
+.vagas-netempregos h3{
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    padding-top:40px;
+    padding-bottom: 10px;
+}
+.vagas-netempregos ul{
+    padding-left:20px;
+    font-family: 'Inter';
+    font-size:14px;
+    padding-bottom: 15px;
+}
+.vagas-netempregos button{
+    background-color: #000;
+    border-radius: 10px;
+    text-align: center;
+    padding:10px;
+    color:#fff;
+    margin-left: 150px;
+    margin-top: 5px;
+    width:100px;
+    cursor: pointer;
+}
+.vagas-netempregos button:hover{
+    background-color: #14213d;
+}
+.vagas-netempregos button a{
+
+    color:#fff;
+    text-decoration: none;
+}
+
+
+
